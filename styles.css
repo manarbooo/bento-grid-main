@@ -1,0 +1,611 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+:root{
+    --Purple_100: hsl(254, 88%, 90%);
+    --Purple_500: hsl(256, 67%, 59%);
+    --Yellow_100: hsl(31, 66%, 93%);
+    --Yellow_500: hsl(39, 100%, 71%);
+    --White: whitesmoke;
+    --Black: hsl(0, 0%, 7%);
+}
+
+body{
+    height: 150vh;
+    font-family: "DM Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--White);
+}
+
+.container{
+    display: grid;
+    margin: 20px auto;
+    width: 90%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    padding: 20px;
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Yellow_100);
+    grid-column: 1 / 2;
+    grid-row: 1;
+    height: 340px;
+    border-radius: 10px;
+   
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--Purple_500);
+    grid-column: 2 / 4;
+    grid-row: 1;
+    height: 270px;
+    border-radius: 10px;
+}
+.section3{
+    background-color: var(--Purple_100);
+    grid-column: 4 / 4 ;
+    grid-row: 1;
+    height: 520px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.section4{
+    background-color: var(--Yellow_500);
+    grid-column: 1 / 2;
+    grid-row: 2;
+    height: 390px;
+    margin-top: -170px;
+    border-radius: 10px;
+}
+.section5{
+    background-color: white;
+    grid-column: 2 / 2;
+    grid-row: 2;
+    height: 240px;
+    margin-top: -259px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.section6{
+    background-color: var(--Yellow_500);
+    grid-column: 3 / 3;
+    grid-row: 2;
+    height: 240px;
+    margin-top: -259px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.section7{
+    background-color: white;
+    grid-column: 2 / 2;
+    grid-row: 3;
+    height: 220px;
+    margin-top: -240px;
+    border-radius: 10px;
+}
+.section8{
+    background-color: var(--Purple_500);
+    grid-column: 3 / 5;
+    grid-row: 3;
+    height: 220px;
+    margin-top: -240px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.createPostImg{
+    width: 100%;
+    margin-top: -28px;
+}
+
+.createPost{
+    margin-left: 25px;
+    color: var(--Black);
+    font-size: 38px;
+    line-height: 0.8;
+    font-weight: 550;
+    letter-spacing: -2.2px;
+    width: 140px;
+}
+
+.createSpan{
+  font-style: italic;
+  color: var(--Purple_500);
+}
+
+.socialMedia1{
+    color: white;
+    font-size: 50px;
+    width: 400px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1;
+}
+
+.socialSpan1{
+    color: var(--Yellow_500);
+}
+
+.socialSpan2{
+  font-style: italic;
+}
+
+.imgContainer2{
+    width: 200px;
+    margin-top: -35px;
+}
+
+.socialMediaImg{
+    width: 100%; 
+}
+
+.socialMedia2{
+    color: var(--White);
+    margin-top: -12px;
+    font-size: 14px;
+}
+
+.schedule1{
+  font-size: 30px;
+  line-height: 0.8;
+  font-weight: 550;
+  letter-spacing: -2.2px;
+  margin-left: 25px;
+  width: 180px;
+  margin-top: 30px;
+}
+
+
+
+.imgContainer3{
+    width: 300px;
+    height: 300px;
+    margin-right: -50px;
+    
+}
+
+.scheduleImg{
+    width: 100%;
+    height: 100%;
+}
+
+.schedule2{
+    font-size: 14px;
+    font-weight: 550;
+    width: 150px;
+    margin-left: 36px;
+}
+
+.imgContainer4{
+    width: 200px;
+}
+
+.writeImg{
+    width: 100%;
+}
+
+.writeContent{
+    margin-left: 25px;
+    color: var(--Black);
+    font-size: 38px;
+    line-height: 0.8;
+    font-weight: 550;
+    letter-spacing: -2.2px;
+    width: 180px;
+}
+
+.manage{
+    margin-left: 25px;
+    color: var(--Black);
+    font-size: 33px;
+    line-height: 0.8;
+    font-weight: 550;
+    letter-spacing: -2.2px;
+    width: 200px;
+    margin-top: -2px;
+}
+.imgContainer5{
+    width: 340px;
+    margin-left: 7px;
+}
+
+.manageImg{
+    width: 100%;
+}
+.imgContainer6{
+    width: 220px;
+    margin: 0 auto;
+    margin-top: -19px;
+}
+
+.maintainImg{
+    width: 100%;
+}
+.maintain{
+    margin-left: 25px;
+    color: var(--Black);
+    font-size: 33px;
+    line-height: 0.8;
+    font-weight: 550;
+    letter-spacing: -2.2px;
+    width: 200px;
+    
+}
+
+.imgContainer7{
+    width: 190px;
+    margin-top: 25px;
+}
+
+.audienceGrowth1{
+    font-size: 60px;
+    font-weight: 550;
+    margin-left: 20px;
+}
+
+
+.audienceGrowth2{
+    font-weight: 550;
+    margin-top: 0;
+    margin-left: 30px;
+}
+.audienceImg{
+  width: 100%;
+}
+
+.imgContainer8{
+    width: 250px;
+}
+
+.followersImg{
+    width: 100%;
+}
+
+.followers{
+    margin-left: 25px;
+    color: var(--White);
+    font-size: 33px;
+    line-height: 0.8;
+    font-weight: 550;
+    letter-spacing: 1px;
+    width: 300px;
+    margin-left: -15px;
+}
+
+@media screen and (max-width: 1099px){
+  
+    .section1 {
+        order: 7;
+      }
+      
+      .section2 {
+        order: 1;
+      }
+      
+      .section3 {
+        order: 4;
+      }
+      
+      .section4 {
+        order: 8;
+      }
+    
+      .section5 {
+        order: 2;
+      }
+    
+      .section6 {
+        order: 3;
+      }
+    
+      .section7 {
+        order: 6;
+      }
+    
+      .section8 {
+        order: 5;
+      }
+
+
+
+    body{
+        height: 500vh;
+        font-family: "DM Sans", sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--White);
+    }
+    
+    .container{
+        display: flex;
+        margin: 0;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section1{
+        display: flex;
+        flex-direction: column;
+        background-color: var(--Yellow_100);
+        width: 85%;
+        height: 270px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+       
+    }
+    .createPostImg{
+        width: 100%;
+        margin-top: -10px;
+    }
+    
+    .createPost{
+        margin-left: 25px;
+        color: var(--Black);
+        font-size: 38px;
+        line-height: 0.8;
+        font-weight: 550;
+        letter-spacing: -2px;
+        width: 80%;
+    }
+    .imgContainer1{
+        width: 50%;
+    }
+    .createPostImg{
+        width: 100%;
+    }
+    
+
+
+
+
+    .section2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 85%;
+        height: 270px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    .socialMedia1{
+        color: white;
+        font-size: 45px;
+        width: 85%;
+        font-weight: 500;
+        text-align: center;
+        line-height: 1;
+    }
+    
+    .socialSpan1{
+        color: var(--Yellow_500);
+    }
+    
+    .socialSpan2{
+      font-style: italic;
+    }
+    
+    .imgContainer2{
+        width: 50%;
+        margin-top: -35px;
+    }
+    .socialMedia2{
+        color: var(--White);
+        margin-top: -12px;
+        font-size: 18px;
+    }
+    
+
+
+
+
+
+    .section3{
+        background-color: var(--Purple_100);
+        width: 85%;
+        height: 520px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .schedule1{
+        font-size: 30px;
+        line-height: 0.8;
+        font-weight: 550;
+        letter-spacing: -2.2px;
+        margin-left: 25px;
+        width: 90%;
+        margin-top: 30px;
+        
+      }
+      
+      
+      
+      .imgContainer3{
+          width: 80%;
+          margin-right: 0;
+          
+      }
+      
+      .scheduleImg{
+          width: 100%;
+     
+      }
+      
+      .schedule2{
+          font-size: 19px;
+          font-weight: 550;
+          width: 90%;
+          margin-left: 15px;
+      }
+
+
+
+
+
+
+    .section4{
+        background-color: var(--Yellow_500);
+        width: 85%;
+        height: 390px;
+        margin-top: 0;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    .imgContainer4{
+        width: 40%;
+        margin-top: -8px;
+    }
+    
+    .writeImg{
+        width: 100%;
+    }
+    
+    .writeContent{
+        margin-left: 25px;
+        color: var(--Black);
+        font-size: 38px;
+        line-height: 0.8;
+        font-weight: 550;
+        letter-spacing: -2.2px;
+        width: 80%;
+    }
+
+
+
+
+
+
+    .section5{
+        background-color: white;
+        width: 85%;
+        height: 200px;
+        margin-top: 0;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    .manage{
+        margin-left: 25px;
+        color: var(--Black);
+        font-size: 30px;
+        line-height: 0.8;
+        font-weight: 550;
+        letter-spacing: -2.2px;
+        width: 85%;
+        margin-top: -2px;
+    }
+    .imgContainer5{
+        width: 80%;
+        margin-left: 7px;
+    }
+    
+    .manageImg{
+        width: 100%;
+    }
+
+
+
+    .section6{
+        background-color: var(--Yellow_500);
+        width: 85%;
+        height: 240px;
+        margin-top: 0;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    .imgContainer6{
+        width: 70%;
+        margin-left: 20px;
+        margin-top: -19px;
+    }
+    
+    .maintain{
+        margin-left: 25px;
+        color: var(--Black);
+        font-size: 33px;
+        line-height: 0.8;
+        font-weight: 550;
+        letter-spacing: -2.2px;
+        width: 80%;
+        
+    }
+
+
+
+
+    .section7{
+        background-color: white;
+        width: 85%;
+        height: 220px;
+        margin-top: 0;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    .imgContainer7{
+        width: 190px;
+        margin-top: 25px;
+    }
+    
+    .audienceGrowth1{
+        font-size: 60px;
+        font-weight: 550;
+        margin-left: 20px;
+    }
+    
+    
+    .audienceGrowth2{
+        font-weight: 550;
+        margin-top: 0;
+        margin-left: 30px;
+    }
+    .audienceImg{
+      width: 100%;
+    }
+
+
+
+
+    .section8{
+        background-color: var(--Purple_500);
+        width: 85%;
+        height: 250px;
+        margin-top: 0;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+
+    .imgContainer8{
+        width: 150px;
+    }
+    
+    
+    
+    .followers{
+        color: var(--White);
+        font-size: 25px;
+        line-height: 0.8;
+        font-weight: 550;
+        letter-spacing: 1px;
+        width: 60%;
+        text-align: center;
+        margin-top: -5px;
+    }
+    
+
+}
